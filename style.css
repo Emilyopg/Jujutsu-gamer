@@ -1,0 +1,51 @@
+body{
+
+    background-color: rgb(83, 53, 110);
+    color: rgb(231, 217, 134);
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 70px;
+    font-size: 25px; 
+}
+
+    button {
+        background-color: #5485ee; 
+        color: rgb(231, 217, 134); 
+        border: none; 
+        padding: 10px 20px; 
+        font-size: 30px; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease; 
+        font-family: "Libre Baskerville", serif;
+        
+    }
+    button:hover{
+        background-color: #666
+    }
+
+
+    .passo{
+        display: none;
+    }
+
+    .passo.ativo {
+        display: block;
+    }
+
+   main{
+    text-align: center;
+    max-width: 90%;
+
+   }
+
+   img {
+    max-width: 80%;
+    
+   }
+
+   
+   
+   
